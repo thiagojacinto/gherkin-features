@@ -1,11 +1,9 @@
 # language: pt
-Funcionalidade: Visualizar página do produto no site Angeloni Super
-  A fim de obter informações do produto
-  Como um usuário
-  Eu quero navegar no site Angeloni Super
 
-  Cenário: Usuário navega até a página do produto
-    Dado que o usuário acessa o site Angeloni Super
-    Quando este usuário seleciona o primeiro departamento
-    E seleciona o primeiro produto
-    Então deve abrir uma página deste produto
+Funcionalidade: Produto
+
+  Cenário: Exibir produto
+    Dado que esteja na home
+    Quando selecionar o primeiro departamento
+    E selecionar o primeiro produto
+    Então deverão ser exibidas as informações deste produto
